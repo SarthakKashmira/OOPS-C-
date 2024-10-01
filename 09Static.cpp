@@ -11,10 +11,12 @@ class Sarthak{
     ~Sarthak()
     {cout<<"Destructor called"<<endl;}
 };
+
 int Sarthak::count=0;
+
 int main()
 {
-    int x=0;
+    int x=1;
     if(x==0)
     {Sarthak obj;
     int get=obj.printMsg(); //We can also call the static function this way also

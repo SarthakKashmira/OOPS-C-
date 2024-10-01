@@ -15,6 +15,7 @@ class Book{
      ~Book()
      {cout<<"Destructor is called:"<<pages<<endl;}
 };
+
 void createObj()
 {
     Book b1(23),b2(34);

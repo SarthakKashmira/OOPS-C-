@@ -26,7 +26,7 @@ int main()
     // s->ask();
     // s->get();
 
-    //Either do above way or as below
+    // Either do above way or as below
     
     School obj;
     obj.ask();

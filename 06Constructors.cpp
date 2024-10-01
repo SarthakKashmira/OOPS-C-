@@ -5,6 +5,7 @@ class Sarthak{
     string name;
     
     public:
+    
     Sarthak():age(21),name("Good Boy")
     { }
     void getData() 

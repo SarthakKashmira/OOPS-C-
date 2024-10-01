@@ -1,9 +1,11 @@
 
 #include <iostream>
 using namespace std;
+
 class base {
 private:
 	int private_variable;
+	
 
 protected:
 	int protected_variable;
@@ -16,6 +18,7 @@ public:
 	}
 	friend void friendFunction(base& obj);// friend function declaration
 };
+
 void friendFunction(base& obj)   // friend function definition
 {
 	cout << "Private Variable: " << obj.private_variable

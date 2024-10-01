@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
+
 class{
     string name;
     int age;
     string caste="Kashmira";
+    
     public:
     void takeDetails()
     {

@@ -12,10 +12,10 @@ class Book{
     }
     ~Book()
     {cout<<"Destructor called "<<pages<<endl;}
-};
+} obj2(38);
 int main()
 {
     Book obj(4);
     Book obj1(6);
- 
+    cout<<"Back to main"<<endl;
 }
